@@ -5,7 +5,15 @@
 num_str_1 = "42"
 num_str_2 = "13"
 num_str_3 = "7"
-word_1 = "robots"
-word_2 = "built"
-word_3 = "today"
-word_4 = "were"
+word_1 = " robots"
+word_2 = " built"
+word_3 = " today"
+word_4 = " were"
+
+
+num_int_1 = int(num_str_1)
+num_int_2 = int(num_str_2)
+sum = num_int_1 + num_int_2
+sentence = str(int(sum)) + word_1 +  word_4 +  word_2 +  word_3
+
+print(sentence)
